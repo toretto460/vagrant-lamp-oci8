@@ -1,0 +1,36 @@
+DEPENDENCIES
+  apache2 (~> 2.0.0)
+  apt (~> 2.6.0)
+  build-essential (~> 2.0.6)
+  oracle-instantclient
+    git: https://github.com/cla-rce/oracle-instantclient.git
+    revision: 0faba2f12e2574334ad6d0769e4535207d2917ef
+  php
+    git: https://github.com/priestjim/chef-php.git
+    revision: e3f612d0234d0afc6adc806285b2950b3f063e3a
+  vagrant_main
+    path: cookbooks/vagrant_main
+
+GRAPH
+  apache2 (2.0.0)
+    iptables (>= 0.0.0)
+    logrotate (>= 0.0.0)
+    pacman (>= 0.0.0)
+  apt (2.6.0)
+  build-essential (2.0.6)
+  chef-sugar (2.3.0)
+  iptables (0.14.0)
+  logrotate (1.7.0)
+  oracle-instantclient (0.3.2)
+  pacman (1.1.1)
+  php (1.2.3)
+    apt (>= 0.0.0)
+    build-essential (>= 0.0.0)
+    xml (>= 0.0.0)
+    yum (>= 0.0.0)
+  vagrant_main (0.1.0)
+    apache2 (>= 0.0.0)
+  xml (1.2.6)
+    build-essential (>= 0.0.0)
+    chef-sugar (>= 0.0.0)
+  yum (3.3.2)
