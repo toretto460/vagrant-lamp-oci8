@@ -10,7 +10,7 @@ Requirements
 - Git
 - VirtualBox
 - Vagrant
-- The ´berkshelf´ gem (gem install berkshelf)
+- The `berkshelf` gem (gem install berkshelf)
 - NFS:
 
   Shared folders are configured with NFS for easy permissions management and performance reasons.
